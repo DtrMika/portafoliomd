@@ -1,0 +1,173 @@
+body {
+    background-color: #e7e7e7;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    border-radius: 80%;
+}
+
+#container1 {
+    background-color: #020446;
+    color: #1a1a1a;
+    padding: 50px;
+    margin: 0;
+    background-image: url('imagen3.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity: 90%;
+
+}
+
+#container2 {
+    margin-left: 140px;
+    margin-right: 140px;
+    background-color: #e7e7e7;
+    text-decoration: dotted;
+}
+
+#container3 {
+    background-color: #131724;
+    padding: 15px;
+    color: #b1b1b1;
+    text-rendering: geometricPrecision;
+}
+
+.h1ppal {
+    color: rgb(118, 151, 212);
+    text-align: center;
+}
+
+#OIP {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    margin: 0 auto;
+}
+
+#p1 {
+    margin-left: 300px;
+    margin-right: 300px;
+    color: #fdf8f8;
+
+}
+
+.tit {
+    color: rgb(255, 255, 255);
+    background-color: rgb(16, 26, 130);
+    border-radius: 5px;
+    display: inline-block;
+    padding: 2px;
+}
+
+h2 {
+    border-radius: 1px;
+    margin-top: 20px;
+    color: #333;
+}
+
+p {
+    color: #666;
+}
+
+#sep1 {
+    border: #e1ca00;
+    border-top: 2px solid #e9ca00;
+    width: 100%;
+
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #585252;
+    margin: 20px 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.5s;
+}
+
+ul li a:hover {
+    color: rgb(0, 195, 221);
+    font-weight: bold;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th,
+td {
+    background-color: aliceblue;
+    border: 1px solid #c4bebe;
+    padding: 8px;
+}
+
+th {
+    background-color: #6696ef;
+}
+
+#areatext {
+    width: 40%;
+    height: 100px;
+}
+
+.tx,
+select {
+    width: 40%;
+    padding: 15px;
+    margin-bottom: 15px;
+
+}
+
+select {
+    width: 15%;
+}
+
+#Ct {
+    margin-left: 140px;
+    color: #b1b1b1;
+    cursor: pointer;
+    display: inline-block;
+
+}
+
+#Submit:hover {
+    padding: 10px 20px;
+    background-color: #754b4b;
+    color: #fff;
+    border: none;
+
+
+}
+
+#Submit {
+    margin-left: 140px;
+    padding: 10px 20px;
+    background-color: #b1b1b1;
+    color: #161212;
+    bottom: auto;
+    cursor: pointer;
+}
+
+label {
+    cursor: pointer;
+    display: inline-block;
+    padding: 2px 6px;
+    text-align: right;
+    width: 150px;
+    vertical-align: top;
+}
